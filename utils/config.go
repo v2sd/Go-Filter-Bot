@@ -7,17 +7,17 @@ import "github.com/PaulSonOfLars/gotgbot/v2"
 var TEXT map[string]string = map[string]string{
 
 	"START": `
-<b>Hᴇʏ %v ɪᴍ %v ᴀɴ Aᴡᴇsᴏᴍᴇ Filter bot with global filter support</b>
+<b>Hᴇʏ %v ɪ'ᴍ %v ᴀɴ Aᴡᴇsᴏᴍᴇ Filter bot with global filter support</b>
 
 <i>I can save a custom reply for a word in any chat. Check my help menu for more details.</i>
 	`,
 	"ABOUT": `
+<b>Cɾҽα𝜏σɾ</b> : <a href='t.me/r2spr'>𝗥𝟮𝘀𝗽𝗿</a>
 <b>Լαɳցᥙαցҽ</b> : <a href='https://go.dev'>𝗚𝗢</a>
-<b>Ƒɾα𝓶ҽɯσƙ</b> : <a href='github.com/PaulSonOfLars/gotgbot'>𝗴𝗼𝘁𝗴𝗯𝗼𝘁</a>
-<b>Sҽɾʋҽɾ</b> : <a href='heroku.com'>𝗛𝗲𝗿𝗼𝗸𝘂</a>
-<b>Ɗα𝜏αẞαടҽ</b> : <a href='mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
-<b>Ɗҽʋҽɬσρҽɾ</b> : <a href='t.me/jisin0'>𝗝𝗶𝘀𝗶𝗻𝟬</a>
-<b>Sᥙρρσɾ𝜏</b> : <a href='t.me/jisin_hub'>𝗛𝗲𝗿𝗲</a>
+<b>Ƒɾα𝓶ҽɯσƙ</b> : <a href='http://github.com/PaulSonOfLars/gotgbot'>𝗚𝗼𝘁𝗴𝗯𝗼𝘁</a>
+<b>Ɗα𝜏αẞαടҽ</b> : <a href='http://mongodb.org'>𝗠𝗼𝗻𝗴𝗼𝗗𝗕</a>
+<b>Sᥙρρσɾ𝜏</b> : <a href='t.me/HombaleCinemasChat'>𝗛𝗲𝗿𝗲</a>
+<b>𝓤ρԃα𝜏ҽട</b> : <a href='t.me/HombaleCinemas'>𝗝𝗼𝗶𝗻</a>
 	`,
 
 	"MF": `
@@ -85,7 +85,7 @@ var BUTTONS map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot
 		{
 			{Text: "☂ Aʙᴏᴜᴛ ☂", CallbackData: "edit(ABOUT)"},
 			{Text: "🧭 Help 🧭", CallbackData: "edit(HELP)"},
-			{Text: "🫂 Sᴜᴘᴘᴏʀᴛ 🫂", Url: "t.me/Jisin0"},
+			{Text: "🫂 Sᴜᴘᴘᴏʀᴛ 🫂", Url: "t.me/r2spr"},
 		},
 	},
 	"ABOUT": {
