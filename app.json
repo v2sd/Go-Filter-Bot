@@ -1,15 +1,15 @@
 {
     "name": "Go Filter Bot",
     "description": "A Simple yet superfast Filter bot written in pure Go",
-    "logo": "https://raw.githubusercontent.com/Jisin0/Go-Filter-Bot/logo.jpg",
+    "logo": "https://raw.githubusercontent.com/v2sd/Go-Filter-Bot/main/logo.jpg",
     "keywords": [
         "Go",
         "Filter",
         "Mongo DB"
     ],
-    "website": "https://github.com/Jisin0",
-    "repository": "https://github.com/Jisin0/Go-Filter-Bot",
-    "success_url": "https://telegram.dog/Jisin0",
+    "website": "https://github.com/v2sd",
+    "repository": "https://github.com/v2sd/Go-Filter-Bot",
+    "success_url": "https://telegram.dog/r2spr",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
@@ -21,7 +21,7 @@
         },
         "ADMINS": {
             "description": "A List Ids of bot admins seperated by spaces.",
-            "value": ""
+            "value": "1906155412"
         }
     },
     "buildpacks": [
